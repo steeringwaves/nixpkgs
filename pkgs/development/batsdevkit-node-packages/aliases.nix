@@ -38,5 +38,4 @@ let
 in
 
 mapAliases {
-  "@steeringwaves/gobs" = pkgs.gobs;
 }
