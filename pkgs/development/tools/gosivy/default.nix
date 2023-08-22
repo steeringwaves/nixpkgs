@@ -8,10 +8,10 @@ buildGoModule rec {
     rev = "v${version}";
     owner = "nakabonne";
     repo = "gosivy";
-    sha256 = "676660f00993cf9adc25a572c89d25484bf5dc56";
+    sha256 = "1vn13zbxscpjgshbrn1whmz394xj98liih803y1dwwljrxngfn8l";
   };
 
-  vendorSha256 = "676660f00993cf9adc25a572c89d25484bf5dc56";
+  vendorSha256 = "1vn13zbxscpjgshbrn1whmz394xj98liih803y1dwwljrxngfn8l";
 
   doCheck = false;
 
