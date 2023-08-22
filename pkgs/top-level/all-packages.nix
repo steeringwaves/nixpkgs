@@ -9591,6 +9591,8 @@ with pkgs;
 
   nodePackages = dontRecurseIntoAttrs nodejs.pkgs;
 
+  batsNodePackages = dontRecurseIntoAttrs nodejs.batspkgs;
+
   node2nix = nodePackages.node2nix;
 
   openipmi = callPackage ../tools/system/openipmi { };

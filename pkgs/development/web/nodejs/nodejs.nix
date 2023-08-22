@@ -110,6 +110,10 @@ let
       nodejs = self;
     };
 
+    passthru.batspkgs = callPackage ../../batsdevkit-node-packages/default.nix {
+      nodejs = self;
+    };
+
     setupHook = ./setup-hook.sh;
 
     pos = builtins.unsafeGetAttrPos "version" args;
