@@ -27349,6 +27349,8 @@ with pkgs;
 
   gopkgs = callPackage ../development/tools/gopkgs { };
 
+  gosivy = callPackage ../development/tools/gosivy { };
+
   gosec = callPackage ../development/tools/gosec { };
 
   gotemplate = callPackage ../development/tools/gotemplate { };
