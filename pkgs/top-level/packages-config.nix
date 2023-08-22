@@ -14,6 +14,7 @@
       fusePackages
       gns3Packages
       idrisPackages
+      batsDevkitNodePackages
       nodePackages
       nodePackages_latest
       platformioPackages
