@@ -16,12 +16,12 @@
 
 buildPythonPackage rec {
   pname = "httpbin";
-  version = "0.7.0";
+  version = "0.10.1";
   format = "setuptools";
 
   src = fetchPypi {
     inherit pname version;
-    hash = "sha256-y7N3kMkVdfTxV1f0KtQdn3KesifV7b6J5OwXVIbbjfo=";
+    hash = "sha256-e4WWvrDnWntlPDnR888mPW1cR20p4d9ve7K3C/nwaj0=";
   };
 
   patches = [
