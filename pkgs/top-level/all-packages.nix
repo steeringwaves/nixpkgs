@@ -18547,6 +18547,8 @@ with pkgs;
 
   karma-runner = callPackage ../development/tools/karma-runner { };
 
+  phpdocumentor = callPackage ../development/tools/misc/phpdocumentor { };
+
   phpunit = callPackage ../development/tools/misc/phpunit { };
 
   teller = callPackage ../development/tools/teller { };
