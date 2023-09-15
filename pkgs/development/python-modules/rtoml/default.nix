@@ -12,15 +12,15 @@
 
 buildPythonPackage rec {
   pname = "rtoml";
-  version = "0.8";
+  version = "0.9";
 
   disabled = pythonOlder "3.7";
 
   src = fetchFromGitHub {
     owner = "samuelcolvin";
     repo = pname;
-    rev = "v${version}";
-    hash = "sha256-tvX4KcQGw0khBjEXVFmkhsVyAkdr2Bgm6IfD1yGZ37c=";
+    rev = "refs/tags/v${version}";
+    hash = "sha256-Vk/0SGtYhxZFIr/WuXadypZp07kPyzZp7N/1sFSI5dk=";
   };
 
   cargoDeps = rustPlatform.fetchCargoTarball {
