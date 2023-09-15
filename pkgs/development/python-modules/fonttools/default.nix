@@ -24,7 +24,7 @@
 
 buildPythonPackage rec {
   pname = "fonttools";
-  version = "4.38.0";
+  version = "4.42.1";
 
   disabled = pythonOlder "3.7";
 
@@ -32,7 +32,7 @@ buildPythonPackage rec {
     owner  = pname;
     repo   = pname;
     rev = "refs/tags/${version}";
-    hash = "sha256-cdZI2kwR3zzS6eiiXGpeHIp+kgPCPEsTOSTV60pODTM=";
+    hash = "sha256-fcFFJi9Hr0m74LwFIhhhm/bMfxepAvg4/ymU53MmsPg=";
   };
 
   nativeBuildInputs = [ setuptools-scm ];
