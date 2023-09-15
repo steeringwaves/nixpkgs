@@ -7,7 +7,7 @@
 
 buildPythonPackage rec {
   pname = "pycodestyle";
-  version = "2.10.0";
+  version = "2.11.0";
 
   disabled = pythonOlder "3.6";
 
@@ -15,7 +15,7 @@ buildPythonPackage rec {
 
   src = fetchPypi {
     inherit pname version;
-    hash = "sha256-NHGHvbR2Mp2Y9pXCE9cpWoRtEVL/T+m6y4qVkLjucFM=";
+    hash = "sha256-JZvMF4V9ios7SiMnMkt55fAgoTwWB0Zw+cjI+HLqdtA=";
   };
 
   patches = [
