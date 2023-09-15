@@ -23,7 +23,7 @@
 
 let countourpy = buildPythonPackage rec {
   pname = "contourpy";
-  version = "1.0.7";
+  version = "1.1.0";
   format = "pyproject";
 
   disabled = pythonOlder "3.8";
@@ -32,7 +32,7 @@ let countourpy = buildPythonPackage rec {
     owner = "contourpy";
     repo = "contourpy";
     rev = "refs/tags/v${version}";
-    hash = "sha256-n04b9yUoUMH2H7t8um/8h5XaL3hzY/uNMYmOKTVKEPA=";
+    hash = "sha256-7M+5HMDqQI4UgVfW/MXsVyz/yM6wjTcJEdw7vPvzuNY=";
   };
 
   nativeBuildInputs = [
