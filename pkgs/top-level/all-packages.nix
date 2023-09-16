@@ -9591,6 +9591,8 @@ with pkgs;
 
   nodePackages = dontRecurseIntoAttrs nodejs.pkgs;
 
+  batsNodePackages = dontRecurseIntoAttrs nodejs.batspkgs;
+
   node2nix = nodePackages.node2nix;
 
   openipmi = callPackage ../tools/system/openipmi { };
@@ -27356,6 +27358,8 @@ with pkgs;
   godef = callPackage ../development/tools/godef { };
 
   gopkgs = callPackage ../development/tools/gopkgs { };
+
+  gosivy = callPackage ../development/tools/gosivy { };
 
   gosec = callPackage ../development/tools/gosec { };
 
